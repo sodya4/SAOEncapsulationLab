@@ -11,40 +11,45 @@ package lab2;
 public class GameCharacter {
     
     private String name;
-    private int speed = 2;
-    private int armor = 0;
-    private int health = 100;
+    private int tankSpeed = 2;
+    private int tankArmor = 0;
+    private int tankHealth = 100;
 
     public String getName() {
         return name;
     }
 
     public void setName(String name) {
+        //no validation is necessary.
         this.name = name;
     }
 
     public int getSpeed() {
-        return speed;
+        return tankSpeed;
     }
 
     public void setSpeed(int speed) {
-        this.speed = speed;
+        //validate speed is between 0 and x.
+        //tank speed could vary based on powerups, etc.
+        this.tankSpeed = speed;
     }
 
     public int getArmor() {
-        return armor;
+        return tankArmor;
     }
 
     public void setArmor(int armor) {
-        this.armor = armor;
+        //validate armor value is between 0 and 100.
+        this.tankArmor = armor;
     }
 
     public int getHealth() {
-        return health;
+        return tankHealth;
     }
 
     public void setHealth(int health) {
-        this.health = health;
+        //validate health value is between 0 and 100.
+        this.tankHealth = health;
     }
     
     

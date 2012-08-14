@@ -16,7 +16,8 @@ public class GameBoard {
     private double numberOfObstacles;
     
     public void generateBoard(int boardSizeX, int boardSizeY, double obstacleRatio){
-       this.numberOfObstacles = (boardSizeX * boardSizeY * obstacleRatio);
+       //validate ratio is between x and y.
+        this.numberOfObstacles = (boardSizeX * boardSizeY * obstacleRatio);
        
     }
 }

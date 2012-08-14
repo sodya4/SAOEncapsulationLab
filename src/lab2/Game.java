@@ -14,16 +14,22 @@ public class Game {
     private int charPosY;
     private boolean isAlive = true;
     
+    private GameCharacter gameCharacter;
+    private GameBoard gameBoard;
+    
+    
 
     public int getCharPosX() {
         return charPosX;
     }
 
     public void setCharMoveRight(int charPosX) {
+        //needs validation for tank to remain within board.
         this.charPosX = charPosX++;
     }
 
     public void setCharMoveLeft(int charPosX) {
+        //needs validation for tank to remain within board.
         this.charPosX = charPosX--;
     }
     
@@ -32,10 +38,12 @@ public class Game {
     }
 
     public void setCharMoveUp(int charPosY) {
+        //needs validation for tank to remain within board.
         this.charPosY = charPosY++;
     }
     
     public void setCharMoveDown(int charPosY) {
+        //needs validation for tank to remain within board.
         this.charPosY = charPosY--;
     }
 

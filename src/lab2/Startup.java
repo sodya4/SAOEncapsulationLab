@@ -10,6 +10,8 @@ package lab2;
  */
 public class Startup {
     public static void main(String[] args) {
+        //create a new game.
+        Game g = new Game();
         
     }
 }
