@@ -407,9 +407,10 @@ public class MainGUI extends javax.swing.JFrame implements ActionListener {
     }
 
     private void clearEntryFields() {
-        txtNewProdNo.setText("");
-        txtNewProdDesc.setText("");
-        txtNewProdPrice.setText("");
+//        txtNewProdNo.setText("");
+//        txtNewProdDesc.setText("");
+//        txtNewProdPrice.setText("");
+        
     }
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnDisplayList;

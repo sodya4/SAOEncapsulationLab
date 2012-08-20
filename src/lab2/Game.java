@@ -10,6 +10,12 @@ package lab2;
  */
 public class Game {
     
+    Gui gui = new Gui();
+    GameCharacter gc1 = new GameCharacter();
+    GameCharacter gc2 = new GameCharacter();
+    GameBoard gb = new GameBoard();
+    
+    
     private int charPosX;
     private int charPosY;
     private boolean isAlive = true;
